@@ -2,3 +2,4 @@ discord
 datetime
 regex
 pandas
+tabulate
