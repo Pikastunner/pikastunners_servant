@@ -2,5 +2,3 @@ discord
 datetime
 regex
 pandas
-pprint
-streamlit
