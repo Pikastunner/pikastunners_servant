@@ -5,12 +5,12 @@ import regex as re
 from tabulate import tabulate
 import pandas as pd
 from io import BytesIO
-import torch
 import sys
 import json
 import pprint
 import sys
 import streamlit as st
+import config
 
 # 0 is Pikastunner
 # 1 is Gekokillol
@@ -20,7 +20,7 @@ bot_data = [#{"channel_id": 1124323950235754537,
             #"token": "MTEyNDMxMTUwODkyNzY2NDE0OQ.GQkAcz._ZEnifs8vbzy1jbLA_chlX-7eshPMLe-TgrUyA"}, 
             {"channel_id": 1145338676470100118, 
             "guild_id": 1106222465618825328, 
-            "token": "MTE0MDI5OTg1ODUyMDA2NDAxMA.GTf4mg.MSLeD7pZfZIfBWd6iGOY7h9S4aDd6rOfs6pTBE"}]
+            "token": config.token}]
 
 
 #if len(sys.argv) != 2:
