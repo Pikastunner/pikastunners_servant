@@ -1,0 +1,162 @@
+{
+    "Users": {
+        "Nathan": {
+            "uocs_completed": 3,
+            "total_uocs": 5,
+            "timetable": {
+                "year": {}
+            }
+        },
+        "David": {
+            "uocs_completed": 0,
+            "total_uocs": 30,
+            "timetable": {
+                "year": {
+                    "2020": {
+                        "t1": {
+                            "courses": {
+                                "COMP9444": {
+                                    "lab_days": "Tuesday 3:00-4:00, Wednesday 4:00-5:00",
+                                    "tut_days": "Monday 9:10-10:11",
+                                    "uocs": 6
+                                },
+                                "COMP9418": {
+                                    "lab_days": "Tuesday 3:00-4:00, Wednesday 4:00-5:00",
+                                    "tut_days": "Monday 9:10-10:11",
+                                    "uocs": 6
+                                },
+                                "COMP3311": {
+                                    "lab_days": "Tuesday 2:00-4:00, Wednesday 4:00-5:00",
+                                    "tut_days": "Monday 9:10-10:11",
+                                    "uocs": 6
+                                }
+                            },
+                            "completed": true
+                        },
+                        "t2": {
+                            "courses": {},
+                            "completed": false
+                        },
+                        "t3": {
+                            "courses": {
+                                "COMP9418": {
+                                    "lab_days": "Tuesday 2:00-4:00, Wednesday 4:00-5:00",
+                                    "tut_days": "Monday 9:10-10:11",
+                                    "uocs": 6
+                                }
+                            },
+                            "completed": false
+                        }
+                    },
+                    "2021": {
+                        "t1": {
+                            "courses": {},
+                            "completed": false
+                        },
+                        "t2": {
+                            "courses": {},
+                            "completed": false
+                        },
+                        "t3": {
+                            "courses": {},
+                            "completed": false
+                        }
+                    },
+                    "2022": {
+                        "t1": {
+                            "courses": {},
+                            "completed": false
+                        },
+                        "t2": {
+                            "courses": {},
+                            "completed": false
+                        },
+                        "t3": {
+                            "courses": {},
+                            "completed": false
+                        }
+                    },
+                    "2023": {
+                        "t1": {
+                            "courses": {},
+                            "completed": false
+                        },
+                        "t2": {
+                            "courses": {},
+                            "completed": false
+                        },
+                        "t3": {
+                            "courses": {},
+                            "completed": false
+                        }
+                    }
+                }
+            }
+        },
+        "Denton": {
+            "uocs_completed": 108,
+            "total_uocs": 144,
+            "timetable": {
+                "year": {
+                    "2023": {
+                        "t1": {
+                            "courses": {
+                                "COMP3121": {
+                                    "lab_days": "Tuesday 16:00-18:00, Thursday 16:00-18:00",
+                                    "tut_days": "Wednesday 17:00-18:00",
+                                    "uocs": 6
+                                },
+                                "MATH2011": {
+                                    "lab_days": "Monday 14:00-16:00, Thursday 14:00-16:00, Friday 15:00-16:00",
+                                    "tut_days": "Friday 13:00-14:00",
+                                    "uocs": 6
+                                }
+                            },
+                            "completed": true
+                        },
+                        "t2": {
+                            "courses": {
+                                "COMP9417": {
+                                    "lab_days": "Tuesday 10:00-12:00, Thursday 11:00-13:00",
+                                    "tut_days": "Wednesday 14:00-15:00",
+                                    "uocs": 6
+                                },
+                                "MATH3821": {
+                                    "lab_days": "Monday 9:00-11:00, Friday 10:00-11:00",
+                                    "tut_days": "Tuesday 15:00-16:00",
+                                    "uocs": 6
+                                }
+                            },
+                            "completed": true
+                        },
+                        "t3": {
+                            "courses": {
+                                "MATH3871": {
+                                    "lab_days": "Wednesday 16:00-18:00, Friday 10:00-12:00",
+                                    "tut_days": "Friday 13:00-14:00",
+                                    "uocs": 6
+                                },
+                                "COMP9444": {
+                                    "lab_days": "Wednesday 16:00-18:00, Thursday 14:00-16:00",
+                                    "tut_days": "Friday 17:00-18:00",
+                                    "uocs": 6
+                                },
+                                "COMP9313": {
+                                    "lab_days": "Tuesday 12:00-14:00, Thursday 10:00-12:00",
+                                    "tut_days": "Wednesday 14:00-16:00",
+                                    "uocs": 6
+                                }
+                            },
+                            "completed": false
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "Selected_user": "Denton",
+    "Selected_timetable": [
+        "2023",
+        "t3"
+    ]
+}
