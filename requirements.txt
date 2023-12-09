@@ -1,12 +1,5 @@
 discord
 datetime
-random
 regex
-tabulate
 pandas
-io
-sys
-json
-pprint
-sys
-streamlit
+tabulate
