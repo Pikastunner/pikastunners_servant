@@ -17,10 +17,7 @@ import os
 token = os.environ['token'] = st.secrets['token']
 
 
-bot_data = [#{"channel_id": 1124323950235754537, 
-            #"guild_id": 1110051126071533649, 
-            #"token": "MTEyNDMxMTUwODkyNzY2NDE0OQ.GQkAcz._ZEnifs8vbzy1jbLA_chlX-7eshPMLe-TgrUyA"}, 
-            {"channel_id": 1145338676470100118, 
+bot_data = [{"channel_id": 1145338676470100118, 
             "guild_id": 1106222465618825328, 
             "token": token}]
 
@@ -1005,13 +1002,6 @@ async def log_event(channel, args):
 
 @bot.event
 async def on_message(msg):
-    # Pikastunner server
-    #guild_id = 1110051126071533649
-    #channel_id = 1124323950235754537
-    
-    # Other server
-    #guild_id = 1106222465618825328
-    #channel_id = 1145338676470100118
 
     with open("start.json", "r") as json_file:
         listen = json.load(json_file)["Listen"]
@@ -1090,8 +1080,4 @@ async def on_message(msg):
                 else:
                     print(f"{repr(args[0])} IS NOT A COMMAND")
 
-# Pikastunner server
-#bot.run("MTEyNDMxMTUwODkyNzY2NDE0OQ.GQkAcz._ZEnifs8vbzy1jbLA_chlX-7eshPMLe-TgrUyA")
 bot.run(token)
-# Other server
-#bot.run("MTE0MDI5OTg1ODUyMDA2NDAxMA.GTf4mg.MSLeD7pZfZIfBWd6iGOY7h9S4aDd6rOfs6pTBE")
