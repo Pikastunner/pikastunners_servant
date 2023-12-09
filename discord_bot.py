@@ -894,23 +894,6 @@ async def add(channel, msg):
     else:
         print(both_nums)
 
-@bot.event
-async def rand_resp(channel, msg):
-    if msg.content == "Goodnight":
-        await channel.send("I'll be waiting for you to improve me tomorrow. Goodnight adventurer. <:takuma:1132625527379857469>")
-    if re.match("[W,w]ho is the gayest?", msg.content):
-        names = ["Denton", "Catherine"]
-        await channel.send(names[random.randint(0, len(names) - 1)])
-    else:
-        print(msg.content)
-    if "2041" in msg.content:
-        await channel.send("FL")
-    else:
-        print(msg.content)
-    if "catherine" in msg.content and "mark" in msg.content:
-        await channel.send("FL")
-    if "denton" in msg.content and "mark" in msg.content:
-        await channel.send("HD")
 
 @bot.event
 async def rest_stack(channel, args, handler, df, rest_commands, line_count):
@@ -1048,7 +1031,6 @@ async def on_message(msg):
                 await channel.send("I can hear you already.")
 
             await add(channel, msg)  
-            await rand_resp(channel, msg)
 
             # Command list
             args = msg.content.split(" ")
