@@ -10,17 +10,19 @@ import json
 import pprint
 import sys
 import streamlit as st
-import config
+import os
 
 # 0 is Pikastunner
 # 1 is Gekokillol
+token = os.environ['token'] = st.secrets['token']
+
 
 bot_data = [#{"channel_id": 1124323950235754537, 
             #"guild_id": 1110051126071533649, 
             #"token": "MTEyNDMxMTUwODkyNzY2NDE0OQ.GQkAcz._ZEnifs8vbzy1jbLA_chlX-7eshPMLe-TgrUyA"}, 
             {"channel_id": 1145338676470100118, 
             "guild_id": 1106222465618825328, 
-            "token": config.token}]
+            "token": token}]
 
 
 #if len(sys.argv) != 2:
